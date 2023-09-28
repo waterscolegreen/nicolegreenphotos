@@ -56,3 +56,27 @@ button {
   border-radius: 20px;
   padding: 10px 25px 10px 25px;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align:center;
+}
+
+footer {
+  margin-top: auto;
+  background-color:#fa9884;
+  padding-top: 20px;
+  padding-bottom:20px;
+  padding-left:20px;
+  padding-right:30px;
+  margin:0px;
+  text-align:end;
+  color:white;
+}
+
+footer {
+  font-family: "Kanit", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
