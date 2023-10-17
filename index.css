@@ -4,6 +4,7 @@ html {
 
 header {
   text-align: center;
+  position: fixed;
 }
 
 .logo {
@@ -37,6 +38,7 @@ nav a {
   padding: 5px 5px;
   font-size: 20px;
   text-decoration: none;
+  color: black;
 }
 
 nav a:visited {
@@ -57,6 +59,10 @@ button {
   padding: 10px 25px 10px 25px;
 }
 
+button:hover{
+  background-color: #e74646;
+}
+
 footer {
   font-family: "Kanit", sans-serif;
   font-family: "Montserrat", sans-serif;
@@ -66,21 +72,21 @@ main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  text-align:center;
+  text-align: center;
 }
 
 footer {
   margin-top: auto;
-  background-color:#fa9884;
+  background-color: #fa9884;
   padding-top: 20px;
-  padding-bottom:20px;
-  padding-left:20px;
-  padding-right:30px;
-  margin:0px;
-  text-align:end;
-  color:white;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 30px;
+  margin: 0px;
+  text-align: end;
+  color: white;
 }
 
-img{
-  width:350px;
+img {
+  width: 350px;
 }
